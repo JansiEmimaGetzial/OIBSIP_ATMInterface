@@ -1,18 +1,43 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# ATM Interface in Java
 
-## Folder Structure
+This repository contains a simple Java code implementing an ATM interface with basic functionalities such as withdrawing, depositing, checking balance, and exiting.
 
-The workspace contains two folders by default, where:
+## Classes
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### BankAccount Class
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- BankAccount class is designed to manage the user's bank account.
+- It includes methods to set initial balance, get balance, deposit funds, and withdraw funds.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+java
+public class BankAccount {
+    // ... (Refer to the provided Java code)
+}
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### ATM Class
+
+- ATM class is responsible for interacting with the user and performing transactions.
+- Users are prompted to choose from options like withdraw, deposit, check balance, and exit.
+- The performTransaction method handles the execution of selected operations.
+
+java
+public class ATM {
+    // ... (Refer to the provided Java code)
+}
+
+
+## Usage
+
+To use the ATM interface:
+
+1. Clone the repository to your local machine.
+2. Compile and run the Java program, ensuring you have a Java Development Kit (JDK) installed.
+
+bash
+javac ATM.java
+java ATM
+
+
+3. Follow the on-screen instructions to interact with the ATM.
