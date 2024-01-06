@@ -65,7 +65,7 @@ class ATM {
                 break;
 
             case 4:
-                System.out.println("Exiting ATM. Thank you!");
+                System.out.println("Thank you for using this ATM!");
                 System.exit(0);
                 break;
 
