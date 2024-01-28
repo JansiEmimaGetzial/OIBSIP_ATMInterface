@@ -1,21 +1,43 @@
-# Number Guessing Game in Java
 
-## Overview
-This simple Java program is a number guessing game where the user interacts with the computer to guess a randomly generated number between 1 and 100.
+# ATM Interface in Java
 
-## Features
-- Welcomes the user using System.out.print().
-- Utilizes import java.util.Random; to generate a random number for the user to guess.
-- Prompts the user to input their guess.
-- Provides feedback to the user based on their guess:
-  - If the guess is lower than the actual number, "Guess higher" is prompted.
-  - If the guess is higher than the actual number, "Guess lower" is prompted.
-- Continues prompting until the user correctly guesses the number.
-- Displays "Your guess is correct" upon successful guessing.
-- Counts and displays the number of guesses the user took to guess the right number at the end.
+This repository contains a simple Java code implementing an ATM interface with basic functionalities such as withdrawing, depositing, checking balance, and exiting.
 
-## How to Play
-1. Run the Java program.
-2. Enter your guess when prompted.
-3. Adjust your guesses based on the feedback until you guess the correct number.
-4. Once correct, the program will congratulate you and display the number of guesses you took.
+## Classes
+
+### BankAccount Class
+
+- BankAccount class is designed to manage the user's bank account.
+- It includes methods to set initial balance, get balance, deposit funds, and withdraw funds.
+
+java
+public class BankAccount {
+    // ... (Refer to the provided Java code)
+}
+
+
+### ATM Class
+
+- ATM class is responsible for interacting with the user and performing transactions.
+- Users are prompted to choose from options like withdraw, deposit, check balance, and exit.
+- The performTransaction method handles the execution of selected operations.
+
+java
+public class ATM {
+    // ... (Refer to the provided Java code)
+}
+
+
+## Usage
+
+To use the ATM interface:
+
+1. Clone the repository to your local machine.
+2. Compile and run the Java program, ensuring you have a Java Development Kit (JDK) installed.
+
+bash
+javac ATM.java
+java ATM
+
+
+3. Follow the on-screen instructions to interact with the ATM.
